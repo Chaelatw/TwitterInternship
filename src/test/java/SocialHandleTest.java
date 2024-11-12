@@ -33,6 +33,9 @@ public class SocialHandleTest {
     @Test
     void checkHandleLessThan9CharactersTest(){
 
+        String expected = "gamerboy25";
+
+
 
 
     }

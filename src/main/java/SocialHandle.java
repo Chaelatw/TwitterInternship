@@ -7,6 +7,7 @@ public class SocialHandle  {
 
     public String createHandle(String yourSocialHandle) {
             if(yourSocialHandle.length() > 9){
+                yourSocialHandle = yourSocialHandle.substring(0,9);
             }
         yourSocialHandle = "@" + yourSocialHandle.toLowerCase();
 
